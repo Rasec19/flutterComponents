@@ -8,7 +8,12 @@ class AppTheme {
       primaryColor: Colors.indigo,
 
       //AppBar Theme
-      appBarTheme: const AppBarTheme(color: primary, elevation: 0));
+      appBarTheme: const AppBarTheme(color: primary, elevation: 0),
+
+      //TextButton Theme
+      textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(foregroundColor: primary),
+      ));
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
       //Color primario
