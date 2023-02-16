@@ -19,11 +19,6 @@ class ListView1Screen extends StatelessWidget {
                     title: Text(item),
                   ))
               .toList(),
-
-          // ListTile(
-          //   leading: Icon(Icons.access_time),
-          //   title: Text('Hola mundo'),
-          // )
         ],
       ),
     );
