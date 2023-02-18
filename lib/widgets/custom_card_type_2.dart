@@ -9,9 +9,11 @@ class CustomCardType2 extends StatelessWidget {
       elevation: 10,
       child: Column(
         children: const [
-          Image(
-              image: NetworkImage(
-                  'https://photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg'))
+          FadeInImage(
+            image: NetworkImage(
+                'https://photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg'),
+            placeholder: AssetImage('assets/jar-loading.gif'),
+          )
         ],
       ),
     );
