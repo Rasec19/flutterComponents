@@ -47,6 +47,16 @@ class AppRoutes {
         name: 'Text Inputs',
         screen: const InputsScreen(),
         icon: Icons.input_rounded),
+    MenuOptions(
+        route: 'slider',
+        name: 'Slider and Checks',
+        screen: const SliderScreen(),
+        icon: Icons.slow_motion_video_rounded),
+    MenuOptions(
+        route: 'listviewbuilder',
+        name: 'Infinite Scroll & Pull to Refresh',
+        screen: const ListViewBuilderScreen(),
+        icon: Icons.build_circle_outlined),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
